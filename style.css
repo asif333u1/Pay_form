@@ -1,0 +1,69 @@
+table,th,tr,td{
+    border: solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: cursive;
+    text-align: center;
+    text-shadow: none;
+}
+
+th{
+    background-color: bisque;
+}
+tr{
+    background-color: aqua;
+
+}
+.full{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 10px;
+
+}
+.header{
+    text-align: center;
+    color:blue;
+}
+.header:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+input[type="submit"]{
+    color:rgb(0, 0, 0);
+    background-color: rgb(25, 0, 255);
+    width: 100%;
+    height: 50px;
+    font-size: 100%;
+    cursor: pointer;
+
+}
+input[type="submit"]:hover{
+    background-color: rgb(255, 255, 255);
+}
+fieldset{
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    background-color: #f2f2f2;
+    
+
+}
+
+
